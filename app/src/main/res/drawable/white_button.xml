@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="WhiteButton" parent="Widget.AppCompat.Button">
+    <item name="android:background">@color/white</item>
+    <item name="android:outline">@null</item>
+</style>

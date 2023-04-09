@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/headerFrame"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="191dp"
+            android:background="@drawable/header"/>
+
+        <Button
+            android:id="@+id/btnBackInputUser"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/sign_in"
+            android:elevation="4dp"
+            android:text="@string/Back"
+            android:textAllCaps="true"
+            android:textColor="#2F80ED"
+            android:textSize="19dp"/>
+    </FrameLayout>
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#252525"
+        android:text="@string/ForgotPass"
+        android:textSize="22dp"/>
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Password"
+                android:textSize="15dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:inputType="textPassword"
+                    android:id="@+id/edtPasswordNew"
+                    android:layout_width="356dp"
+                    android:layout_height="35dp"
+                    android:paddingLeft="@dimen/padding_medium"
+                    android:paddingRight="@dimen/padding_large_l"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input"/>
+
+                <ImageButton
+                    android:id="@+id/hidePassNew"
+                    android:layout_width="35dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="-45dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/hide"
+                    android:background="@color/transparent80"
+                    android:scaleType="fitCenter"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/ConfirmPassword"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtConfirmPassNew"
+                android:layout_width="356dp"
+                android:layout_height="35dp"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/padding_medium"
+                android:paddingRight="@dimen/padding_large_l"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input"/>
+
+            <ImageButton
+                android:id="@+id/hideConfirmPassNew"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="-45dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/hide"
+                android:background="@color/transparent80"
+                android:scaleType="fitCenter"/>
+
+            <Button
+                android:id="@+id/btnNextConfirm"
+                android:layout_width="356dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="-350dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/sign_up"
+                android:text="@string/Next"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/footer"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

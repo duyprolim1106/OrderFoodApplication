@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/arrow"
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/arrow"
+                    android:textAlignment="center" />
+
+                <RelativeLayout
+                    android:id="@+id/frame_136"
+                    android:layout_width="276dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/frame136">
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="14dp"
+                        android:src="@drawable/nav_search"
+                        android:scaleType="fitCenter"
+                        android:background="@color/transparent80"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/noodle"
+                        android:layout_width="246dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="-1sp"
+                        android:text="@string/noodle"
+                        android:textAppearance="@style/noodle" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/filter"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/filter2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/img" />
+
+                <ImageView
+                    android:layout_width="69dp"
+                    android:layout_height="24dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:src="@drawable/img_1" />
+
+                <ImageView
+                    android:layout_width="69dp"
+                    android:layout_height="24dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:src="@drawable/img_2" />
+
+                <ImageView
+                    android:layout_width="69dp"
+                    android:layout_height="24dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:src="@drawable/img_3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/my_templates_8"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_4"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_5"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_6"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_7"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_8"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

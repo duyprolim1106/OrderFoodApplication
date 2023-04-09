@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_small_l">15dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_medium_l">25dp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+    <dimen name="padding_large_l">50dp</dimen>
+    <dimen name="padding_super">60dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="width_box_popular">152dp</dimen>
+    <dimen name="height_box_popular">220dp</dimen>
+    <dimen name="width_image_box_popular">130dp</dimen>
+    <dimen name="height_image_box_popular">99dp</dimen>
+    <dimen name="height_textview_box_popular">26dp</dimen>
+    <dimen name="width_height_16dp">16dp</dimen>
+    <dimen name="width_height_23dp">23dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="padding_12dp">12dp</dimen>
+    <dimen name="width_box_food_cart">320dp</dimen>
+    <dimen name="height_box_food_cart">150dp</dimen>
+</resources>
